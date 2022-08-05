@@ -1,0 +1,138 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+.left-container {
+    position: fixed;
+    width: 330px;
+    height: 100vh;
+    background-color: #D9D9D9;
+}
+.photo-contact {
+    position: absolute;
+    margin-top: 85px;
+    text-align: center;
+}
+.foto {
+    width: 40%;
+    border-radius: 5%
+}
+
+.c-button {
+    color: white;
+    width: 50%;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    padding: 11px;
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px 1px black;
+}
+.c-button:hover {
+    background-color: white;
+    color: black; 
+    transition: 1s;
+}
+
+.right-container {
+    position: absolute;
+    left: 330px;
+    background-image: url('https://media.giphy.com/media/7OGVpKuDBkFXXvWmY2/giphy.gif');
+    background-repeat: repeat;
+    height: auto;
+
+}
+
+.transparent-box {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    height: 100%;
+    padding-bottom: 1%;
+}
+
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.title {
+    color: white;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    background-color: black;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px 1px black;
+
+}
+
+.title:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+
+.menu {
+    color: white;
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 3px 15px;
+    background-color: black;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px 1px black;
+}
+.menu:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+#profile {
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+.rata {
+    text-align: justify;
+    padding-right: 63px;
+}
+
+#experience {
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+#contact {
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+#footer {
+    text-align: center;
+}
